@@ -1,0 +1,161 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style-type: none;
+text-decoration: none;
+font-family: 'Courier New', Courier, monospace;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.section1{
+    width: 100%;
+    height: 100%;
+  
+}
+nav{
+    width:95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu li{
+    font-size: 15px;
+    font-weight: 900;
+}
+nav h1{
+    font-size: 35px;
+    font-weight: bolder;
+    
+}
+nav h1 i {
+    margin-right: -20px;
+    transform: rotate(20deg);
+    display: inline-block;
+}
+nav button {
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+/* center part  */
+
+.center{
+    width: 100%;
+   
+    height: 100vh;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 4%;
+}
+.center-part1{
+    width: 50%;
+    height: 100%;
+    
+
+}
+.center-part2{
+    width: 50%;
+    height: 100%;
+
+}
+.center-part1 h1{
+    font-size: 40px;
+    width: 80%;
+}
+.center-part1 p{
+    font-size: 20px;
+    margin: 30px 0;
+    width:  80%;
+    text-align: justify;
+}
+.center-part1 button{
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+
+}
+.section1bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 4%;
+}
+.section1bottom img{
+    height: 80px;
+}
+.section2{
+    width: 95%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.services {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.services h1{
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: palegreen;
+}
+.services h4{
+    width: 65%;
+    font-weight: 700;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 70px;
+    padding: 40px 0;
+}
+.grid1{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 30px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+}
+.grid1 h2{
+    width: 70%;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.grid1 img{
+    height: 70px;
+}
+.grid1:nth-child(1),.grid1:nth-child(4){
+    box-shadow: 0 10px 0 black;
+}
+
+.grid1:nth-child(2){
+    background-color: green;
+    color: white;
+}
+.grid1:nth-child(3){
+    background-color: black;
+    color: white;
+    
+}
+.section2{
+    overflow-x: hidden;
+}
+
